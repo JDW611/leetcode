@@ -3,33 +3,27 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-    let result = 0;
-    let value = [];
-
-    for(i=0; i<s.length; i++) {
-        value.push(SymbolToValue(s[i]));
+    let romMap = {
+        "I" : 1,
+        "V" : 5,
+        "X" : 10,
+        "L" : 50,
+        "C" : 100,
+        "D" : 500,
+        "M" : 1000,
     }
-
-    console.log(value);
+    let result = 0;
 
     for(i=0; i<s.length; i++) {
-        if(value[i] < value[i+1]) {
-            result += value[i+1] - value[i];
-            i += 1;
+        let current = romMap[s[i]];
+        let next = romMap[s[i+1]];
+
+        if(current < next) {
+            result -= current;
         } else {
-            result += value[i];
+            result += current;
         }
     }
 
     return result;
 };
-
-function SymbolToValue(symbol) {
-    if(symbol === 'I') return 1;
-    if(symbol === 'V') return 5;
-    if(symbol === 'X') return 10;
-    if(symbol === 'L') return 50;
-    if(symbol === 'C') return 100;
-    if(symbol === 'D') return 500;
-    if(symbol === 'M') return 1000;
-}
