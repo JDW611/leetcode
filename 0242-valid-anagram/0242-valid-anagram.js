@@ -25,6 +25,8 @@ var isAnagram = function(s, t) {
     return true;
 };
 
+
+// 속도가 조금 느림
 // for(i=0; i<s.length; i++) {
 //         t = t.replace(s[i],'');
 //     }
