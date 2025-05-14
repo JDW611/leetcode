@@ -26,7 +26,5 @@ var wordPattern = function (pattern, s) {
         }
     }
 
-    console.log("AfterArr: ", arr.join(''));
-
     return pattern === arr.join('');
 };
