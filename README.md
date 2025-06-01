@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/JDW611/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/JDW611/leetcode/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/JDW611/leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/JDW611/leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/JDW611/leetcode/tree/master/0392-is-subsequence) |
 ## Hash Table
 |  |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/JDW611/leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/JDW611/leetcode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/JDW611/leetcode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/JDW611/leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/JDW611/leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/JDW611/leetcode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/JDW611/leetcode/tree/master/0290-word-pattern) |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/JDW611/leetcode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/JDW611/leetcode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/JDW611/leetcode/tree/master/0202-happy-number) |
 ## Dynamic Programming
 |  |
 | ------- |
