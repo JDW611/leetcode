@@ -5,25 +5,21 @@
 
 
 var pivotIndex = function (nums) {
+    let totalSum = 0;
     let left = 0;
-    let right = 0;
 
-    const sum = (nums) => {
-        let sumResult = 0;
-        for (let i = 0; i < nums.length; i++) {
-            sumResult += nums[i];
-        }
-
-        return sumResult;
+    for (i = 0; i < nums.length; i++) {
+        totalSum += nums[i];
     }
 
-    for (let i = 0; i < nums.length; i++) {
-        left = sum(nums.slice(0, i));
-        right = sum(nums.slice(i + 1));
+    for (i = 0; i < nums.length; i++) {
+        let right = totalSum - left - nums[i]
 
-        if (left === right) {
+        if (right === left) {
             return i;
         }
+
+        left += nums[i];
     }
 
     return -1;
