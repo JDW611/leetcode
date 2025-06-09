@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/JDW611/leetcode/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/JDW611/leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/JDW611/leetcode/tree/master/0724-find-pivot-index) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/JDW611/leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/JDW611/leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1833-find-the-highest-altitude](https://github.com/JDW611/leetcode/tree/master/1833-find-the-highest-altitude) |
 ## Two Pointers
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/JDW611/leetcode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/JDW611/leetcode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/JDW611/leetcode/tree/master/0383-ransom-note) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/JDW611/leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Divide and Conquer
 |  |
 | ------- |
