@@ -4,23 +4,11 @@
  * @return {number[][]}
  */
 var findDifference = function (nums1, nums2) {
-    const left = [];
-    const right = [];
-
     const set1 = new Set(nums1);
     const set2 = new Set(nums2);
 
-    for (let value of set1) {
-        if (!set2.has(value)) {
-            left.push(value);
-        }
-    }
+    const left = set1.difference(set2);
+    const right = set2.difference(set1);
 
-    for (let value of set2) {
-        if (!set1.has(value)) {
-            right.push(value);
-        }
-    }
-
-    return [left, right];
+    return [[...left], [...right]];
 };
