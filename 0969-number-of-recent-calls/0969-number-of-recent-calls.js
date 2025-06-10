@@ -9,12 +9,18 @@ var RecentCounter = function() {
  */
 RecentCounter.prototype.ping = function(t) {
     this.requests.push(t);
-
-    while (this.requests.length > 0 && this.requests[0] < t-3000) {
-        this.requests.shift();
+    
+    let left = 0, right = this.requests.length - 1;
+    while (left < right) {
+        let mid = Math.floor((left + right) / 2);
+        if (this.requests[mid] >= t - 3000) {
+            right = mid;
+        } else {
+            left = mid + 1;
+        }
     }
-
-    return this.requests.length;
+    
+    return this.requests.length - left;
 };
 
 /** 
