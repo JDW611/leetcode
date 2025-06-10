@@ -4,7 +4,6 @@
  */
 var uniqueOccurrences = function (arr) {
     const check = new Map();
-    let result = true;
 
     for (i = 0; i < arr.length; i++) {
         if (check.has(arr[i])) {
@@ -16,11 +15,8 @@ var uniqueOccurrences = function (arr) {
         }
     }
 
-    for (let [key, value] of check) {
-        if ([...check.values()].filter(v => v === value).length > 1) {
-            result = false;
-        }
-    }
+    const occurrences = [...check.values()];
+    const uniqueOccurrences = new Set(occurrences);
 
-    return result;
+    return occurrences.length === uniqueOccurrences.size;
 };
