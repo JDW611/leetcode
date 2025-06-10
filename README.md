@@ -121,4 +121,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0724-find-pivot-index](https://github.com/JDW611/leetcode/tree/master/0724-find-pivot-index) |
 | [1833-find-the-highest-altitude](https://github.com/JDW611/leetcode/tree/master/1833-find-the-highest-altitude) |
+## Design
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/JDW611/leetcode/tree/master/0969-number-of-recent-calls) |
+## Queue
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/JDW611/leetcode/tree/master/0969-number-of-recent-calls) |
+## Data Stream
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/JDW611/leetcode/tree/master/0969-number-of-recent-calls) |
 <!---LeetCode Topics End-->
