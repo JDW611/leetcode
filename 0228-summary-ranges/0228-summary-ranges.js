@@ -3,8 +3,7 @@
  * @return {string[]}
  */
 var summaryRanges = function (nums) {
-    let result = []
-    let range = []
+    let result = [];
     let start = nums[0];
     let end = nums[0];
     let check = false;
