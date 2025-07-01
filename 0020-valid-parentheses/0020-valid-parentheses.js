@@ -2,40 +2,23 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
+var isValid = function (s) {
     const stack = [];
-    let result = true;
+    const brackets = {
+        '(': ')',
+        '{': '}',
+        '[': ']'
+    }
 
-    for(let i = 0; i<s.length; i++) {
-        if(s[i] === ')') {
-            if(stack.pop() !== '(') {
-                result = false;
-                break;
+    for (let i = 0; i < s.length; i++) {
+        if (brackets[s[i]]) {
+            stack.push(brackets[s[i]]);
+        } else {
+            if (stack.pop() !== s[i]) {
+                return false;
             }
-        }
-
-        if(s[i] === '}') {
-            if(stack.pop() !== '{') {
-                result = false;
-                break;
-            }
-        }
-
-        if(s[i] === ']') {
-            if(stack.pop() !== '[') {
-                result = false;
-                break;
-            }
-        }
-
-        if(s[i] === '(' || s[i] === '{' || s[i] === '[') {
-            stack.push(s[i]);
         }
     }
 
-    if(stack.length > 0) {
-        result = false;
-    }
-
-    return result;
+    return (stack.length === 0)
 };
