@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/JDW611/leetcode/tree/master/0189-rotate-array) |
 | [0219-contains-duplicate-ii](https://github.com/JDW611/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/JDW611/leetcode/tree/master/0228-summary-ranges) |
+| [0274-h-index](https://github.com/JDW611/leetcode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/JDW611/leetcode/tree/master/0283-move-zeroes) |
 | [0605-can-place-flowers](https://github.com/JDW611/leetcode/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/JDW611/leetcode/tree/master/0643-maximum-average-subarray-i) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/JDW611/leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/JDW611/leetcode/tree/master/0242-valid-anagram) |
+| [0274-h-index](https://github.com/JDW611/leetcode/tree/master/0274-h-index) |
 ## Counting
 |  |
 | ------- |
@@ -166,4 +168,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/JDW611/leetcode/tree/master/0020-valid-parentheses) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/JDW611/leetcode/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
