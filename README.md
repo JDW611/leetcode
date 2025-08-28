@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/JDW611/leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/JDW611/leetcode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/JDW611/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/JDW611/leetcode/tree/master/0202-happy-number) |
@@ -140,10 +141,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/JDW611/leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/JDW611/leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/JDW611/leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/JDW611/leetcode/tree/master/0206-reverse-linked-list) |
 ## Tree
 |  |
