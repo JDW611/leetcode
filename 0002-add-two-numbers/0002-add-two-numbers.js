@@ -11,8 +11,8 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-    const head = new ListNode(0);
-    let current = head;
+    const result = new ListNode(0);
+    let current = result;
     let carry = 0;
 
     while (l1 !== null || l2 !== null || carry > 0) {
@@ -28,5 +28,5 @@ var addTwoNumbers = function (l1, l2) {
         if (l2 !== null) l2 = l2.next;
     }
 
-    return head.next;
+    return result.next;
 };
